@@ -63,17 +63,17 @@ const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: '老婆0',
+      name: '酒酒',
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
+      id: 'o3uWK5s7qro5pa2mwq_Az8ElYVV4',
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: '',
+      useTemplateId: 'fDVamcPJ7_N6GEV2yN_nEkBElugkBK_SRC1n-gPXKwc',
       // 所在省份
-      province: '广东',
+      province: '四川',
       // 所在城市
-      city: '肇庆',
+      city: '成都',
       // 新历生日, 仅用作获取星座运势, 格式必须
-      horoscopeDate: '12-27',
+      horoscopeDate: '11-29',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       horoscopeDateType: '今日',
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
@@ -98,7 +98,7 @@ const USER_CONFIG = {
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
         // 在一起的日子
-        { keyword: 'love_day', date: '2022-09-08' },
+        { keyword: 'love_day', date: '2019-12-16' },
         // 结婚纪念日
         { keyword: 'marry_day', date: '2022-09-09' },
         // 退伍日
@@ -239,9 +239,9 @@ const USER_CONFIG = {
   /** 天气相关 */
 
   // 默认所在省份, USERS 中没填的话, 会默认拿这里的省份
-  PROVINCE: '广东',
+  PROVINCE: '四川',
   // 默认所在城市, USERS 中没填的话, 会默认拿这里的城市
-  CITY: '惠州',
+  CITY: '成都',
 
   /** 重要节日相关 */
 
